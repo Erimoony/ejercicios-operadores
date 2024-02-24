@@ -97,5 +97,23 @@ public class App
         //salida
         System.out.println( "El perimetro es : " + peri);
         System.out.println( "El área es : " + are);
+
+        //Área y perimetro de un cuadrado
+        // entrada
+        System.out.println("6. Área y volumen de un cilindro");
+        System.out.println("Ingrese el radio del cilindro: ");
+
+        Scanner cil= new Scanner(System.in);
+        int radio = src.nextInt();
+        
+        System.out.println("Ingrese la altura del cilindro: ");
+        int alt = src.nextInt();
+        //proceso 
+        double total_area= 2 * Math.PI * radio * (radio + alt);
+        double volume = Math.PI * Math.pow(radio, 2) * alt;
+
+        //salida
+        System.out.println("El área total es de: " + total_area + " y el volumen es de: " + volume);
+
     }  
 }
