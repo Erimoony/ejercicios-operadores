@@ -1,5 +1,5 @@
 package co.edu.sena.opp2902274;
-
+import java.util.Scanner;
 public class App 
 {
     //Área de un triángulo"
