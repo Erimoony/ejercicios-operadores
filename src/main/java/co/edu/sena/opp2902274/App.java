@@ -44,15 +44,21 @@ public class App
         //salida
         System.out.println( "La suma de estos numeros es: " + suma);
 
+        //número elevado
+        // entrada
+        System.out.println("3. Ingresar un número y visualizar el número elevado al cuadrado");
+        System.out.println("Ingrese el número: ");
 
 
-
-
+        Scanner ele= new Scanner(System.in);
+        int no1 =src.nextInt();
         
+         //proceso 
+        int elev =(no1 + no1);
 
 
-
-
+        //salida
+        System.out.println( "El número elevado al cuadrado es: " + elev);
     }
 
 
