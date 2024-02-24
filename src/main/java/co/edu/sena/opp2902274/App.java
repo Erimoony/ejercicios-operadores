@@ -79,6 +79,23 @@ public class App
         //salida
         System.out.println( "La conversión es: " + conv);
 
+ //Área y perimetro de un cuadrado
+        // entrada
+        System.out.println("5. Escribir un algoritmo que pida el lado de un cuadrado y muestre el valor del área y del perimetro");
+        System.out.println("Ingrese el valor: ");
 
+
+        Scanner cua= new Scanner(System.in);
+        int c1 =src.nextInt();
+
+
+        //proceso 
+        int peri =(c1 * 4);
+        int are =(c1 * c1);
+
+
+        //salida
+        System.out.println( "El perimetro es : " + peri);
+        System.out.println( "El área es : " + are);
     }  
 }
