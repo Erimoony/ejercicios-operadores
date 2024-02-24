@@ -114,6 +114,17 @@ public class App
 
         //salida
         System.out.println("El área total es de: " + total_area + " y el volumen es de: " + volume);
-
+//entrada
+     System.out.println("7. Radio de una circunferencia");
+       
+        System.out.println("Ingrese el radio de la circunferencia: ");
+        Scanner cir = new Scanner(System.in);
+        int ra = src.nextInt();
+//proceso
+        double length = 2 * Math.PI * radio;
+        double area= Math.PI * Math.pow(ra, 2);
+//salida
+        System.out.println("El radio de la circunferencia es de: " + ra + " la longitud es de " + length + " y el área es de " + area);
+    
     }  
 }
