@@ -120,11 +120,35 @@ public class App
         System.out.println("Ingrese el radio de la circunferencia: ");
         Scanner cir = new Scanner(System.in);
         int ra = src.nextInt();
-//proceso
+
+        //proceso
+
         double length = 2 * Math.PI * radio;
         double area= Math.PI * Math.pow(ra, 2);
-//salida
+
+        //salida
+
         System.out.println("El radio de la circunferencia es de: " + ra + " la longitud es de " + length + " y el área es de " + area);
     
+        //entrada
+        System.out.println("8.Promedio de 3 números");
+
+        System.out.println("Ingrese el primer número: ");
+        Scanner pro = new Scanner(System.in);
+        int num1 = src.nextInt();
+
+        System.out.println("Ingrese el segundo número: ");
+        int num2 = src.nextInt();
+        
+        System.out.println("Ingrese el tercer número: ");
+        int num3 = src.nextInt();
+
+           //proceso
+
+        int resulta = (num1 + num2 + num3)/3;
+
+         //salida
+
+        System.out.println("Sus 3 números fueron: " + num1 +", " + num2 +", " + num3 + " y el promedio es de: " + resulta);
     }  
 }
