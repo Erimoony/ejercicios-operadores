@@ -59,10 +59,26 @@ public class App
 
         //salida
         System.out.println( "El número elevado al cuadrado es: " + elev);
-    }
+    
 
 
+        //Conversión de euro a dolar
+        // entrada
+        System.out.println("4. Escribir un algoritmo que convierta euros a dólares");
+        System.out.println("Ingrese el número a convertir: ");
 
 
-   
+        Scanner con= new Scanner(System.in);
+        double e1 =src.nextDouble();
+
+
+        //proceso 
+        double conv =(e1 * 1.082);
+
+
+        //salida
+        System.out.println( "La conversión es: " + conv);
+
+
+    }  
 }
